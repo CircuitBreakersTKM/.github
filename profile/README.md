@@ -8,23 +8,20 @@
   <a href="https://github.com/CircuitBreakersTKM/RobUL-2025-Local"><img alt="Public robot code" src="https://img.shields.io/badge/code-public%20robot%20code-2ea44f?style=for-the-badge&logo=github"></a>
 </p>
 
-# We are CircuitBreakers
+# CircuitBreakers
 
-**CircuitBreakers** is a high-school robotics team based in **Litoměřice, Czechia**, operating as one of the regional teams in the **RobUL** robotics program.
+**CircuitBreakers** is a high-school robotics team based in **Litoměřice, Czechia** and one of the regional teams in the **RobUL** robotics program.
 
-The important distinction: **CircuitBreakers is not a separate numbered FRC team.** The international FIRST Robotics Competition team is **RobUL, FRC Team #9585**. CircuitBreakers builds and competes locally; selected members can then join the regional RobUL roster for international FRC competition.
+> **CircuitBreakers** = Litoměřice regional team  
+> **RobUL #9585** = the FIRST Robotics Competition team representing the wider regional program internationally
 
-We work at the intersection of **robot mechanics, embedded control, autonomous behavior, computer vision, software engineering and competition strategy**. This GitHub organization is where we keep the software side of that work.
+We build and test robots locally, and selected members can join the regional RobUL roster for FRC competition. Our work spans **robot mechanics, embedded control, autonomous behavior, computer vision, software engineering and competition strategy**.
 
-<p align="center">
-  <img src="./assets/robul-network.svg" alt="Diagram showing CircuitBreakers as one of four regional teams feeding RobUL FRC Team 9585" width="92%">
-</p>
+## How we fit into RobUL
 
-## What RobUL is
+**RobUL (Robot Ústí), FRC Team #9585**, is the Ústí Region's FIRST Robotics Competition team. FIRST lists RobUL as a community team from **Ústí nad Labem** with a **2024 rookie year**.
 
-**RobUL (Robot Ústí), FRC Team #9585**, is the Ústí Region's FIRST Robotics Competition team. FIRST lists RobUL as a community team from **Ústí nad Labem** with a **2024 rookie year**. RobUL's own project history describes it as the first FRC team in the Ústí Region and the second in the Czech Republic.
-
-From the 2025/2026 school year, RobUL moved to a regional model built around four local teams:
+From the 2025/2026 school year, the program has operated through four local regional teams:
 
 | Regional team | Base | Relationship to RobUL |
 |---|---|---|
