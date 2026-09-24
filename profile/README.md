@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/circuitbreakers-banner.svg" alt="CircuitBreakers — Litoměřice regional robotics team in RobUL #9585" width="100%">
+  <img src="./assets/circuitbreakers-banner.svg?v=2" alt="CircuitBreakers — Litoměřice regional robotics team in RobUL #9585" width="100%">
 </p>
 
 <p align="center">
