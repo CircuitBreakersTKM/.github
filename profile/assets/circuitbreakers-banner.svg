@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">CircuitBreakers — Litoměřice robotics</title>
+  <desc id="desc">CircuitBreakers, a regional robotics team in the RobUL 9585 program.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111b2b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55d6ff"/>
+      <stop offset="1" stop-color="#f7c948"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#55d6ff" stroke-width="2" fill="none">
+    <path d="M0 58h130l28 28h120l30-30h120"/>
+    <path d="M0 242h165l28-28h110l32 32h140"/>
+    <path d="M770 0v56l28 28v60l-28 28v148"/>
+    <path d="M1015 0v82l-24 24v70l24 24v120"/>
+    <circle cx="158" cy="86" r="5" fill="#55d6ff"/>
+    <circle cx="193" cy="214" r="5" fill="#55d6ff"/>
+    <circle cx="798" cy="84" r="5" fill="#55d6ff"/>
+    <circle cx="991" cy="106" r="5" fill="#55d6ff"/>
+  </g>
+  <g transform="translate(70 64)">
+    <rect x="0" y="0" width="12" height="190" rx="6" fill="url(#accent)" filter="url(#glow)"/>
+    <text x="38" y="67" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="2">CIRCUITBREAKERS</text>
+    <text x="41" y="113" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">Litoměřice • Czechia • regional robotics team</text>
+    <text x="41" y="153" fill="#f7c948" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">Part of the RobUL program • FRC Team 9585</text>
+    <text x="41" y="187" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">build • code • test • compete • learn</text>
+  </g>
+  <g transform="translate(940 65)">
+    <circle cx="90" cy="90" r="88" fill="#0b1320" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M38 92h30l18-28 22 54 20-36h20" stroke="#55d6ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="90" y="170" text-anchor="middle" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">ROBUL</text>
+    <text x="90" y="198" text-anchor="middle" fill="#f7c948" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="800">#9585</text>
+  </g>
+</svg>
