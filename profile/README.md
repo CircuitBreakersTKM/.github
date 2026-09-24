@@ -17,6 +17,35 @@
 
 We build and test robots locally, and selected members can join the regional RobUL roster for FRC competition. Our work spans **robot mechanics, embedded control, autonomous behavior, computer vision, software engineering and competition strategy**.
 
+## Team in action
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://prf.ujep.cz/cs/29923/chomutovsky-tym-chobot-vyhral-regionalni-robotickou-soutez-a-poleti-do-usa">
+        <img
+          src="https://api.microlink.io/?url=https%3A%2F%2Fprf.ujep.cz%2Fcs%2F29923%2Fchomutovsky-tym-chobot-vyhral-regionalni-robotickou-soutez-a-poleti-do-usa&embed=image.url"
+          alt="CircuitBreakers and the regional robotics competition in Ústí nad Labem"
+          width="100%">
+      </a>
+      <br>
+      <sub><b>Regional Robotics Competition 2025</b> — CircuitBreakers competed in Ústí nad Labem and finished 2nd. Photo/source: UJEP.</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://icuk.cz/tym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni/">
+        <img
+          src="https://api.microlink.io/?url=https%3A%2F%2Ficuk.cz%2Ftym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni%2F&embed=image.url"
+          alt="RobUL team at the 2026 Denver Regional"
+          width="100%">
+      </a>
+      <br>
+      <sub><b>Denver Regional 2026</b> — the combined RobUL #9585 roster, including two CircuitBreakers members. Photo/source: ICUK.</sub>
+    </td>
+  </tr>
+</table>
+
+> More official team/event photography is available through [RobUL](https://robul.cz/), [UJEP](https://prf.ujep.cz/cs/29923/chomutovsky-tym-chobot-vyhral-regionalni-robotickou-soutez-a-poleti-do-usa) and [ICUK](https://icuk.cz/tym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni/). We also use CircuitBreakers' own social media as a source when the post/account is publicly addressable.
+
 ## How we fit into RobUL
 
 **RobUL (Robot Ústí), FRC Team #9585**, is the Ústí Region's FIRST Robotics Competition team. FIRST lists RobUL as a community team from **Ústí nad Labem** with a **2024 rookie year**.
