@@ -1,180 +1,122 @@
 <p align="center">
-  <img src="./assets/circuitbreakers-banner.svg?v=2" alt="CircuitBreakers — Litoměřice regional robotics team in RobUL #9585" width="100%">
+  <a href="https://circuitbreakers.cloud/">
+    <img src="https://raw.githubusercontent.com/CircuitBreakersTKM/.github/main/profile/assets/circuitbreakers-banner.svg?v=3b1ae63caa3919ce" alt="CircuitBreakers — robotický tým z Litoměřic. Navrhujeme, stavíme a programujeme. Navštivte circuitbreakers.cloud." width="100%">
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://frc-events.firstinspires.org/team/9585"><img alt="FRC Team 9585" src="https://img.shields.io/badge/FRC-Team%209585-f7c948?style=for-the-badge&logo=first&logoColor=111827"></a>
-  <a href="https://robul.cz/"><img alt="RobUL" src="https://img.shields.io/badge/RobUL-regional%20robotics-55d6ff?style=for-the-badge"></a>
-  <a href="https://github.com/CircuitBreakersTKM/RobUL-2025-Local"><img alt="Public robot code" src="https://img.shields.io/badge/code-public%20robot%20code-2ea44f?style=for-the-badge&logo=github"></a>
+  <strong><a href="https://circuitbreakers.cloud/">NÁŠ WEB ↗</a></strong>
+  &nbsp; / &nbsp;
+  <a href="https://github.com/CircuitBreakersTKM/RobUL-2025-Local">VEŘEJNÝ KÓD</a>
+  &nbsp; / &nbsp;
+  <a href="https://robul.cz/">ROBUL</a>
+  &nbsp; / &nbsp;
+  <a href="https://www.instagram.com/circuitbreakerstkm/">INSTAGRAM</a>
 </p>
-
-# CircuitBreakers
-
-**CircuitBreakers** is a high-school robotics team based in **Litoměřice, Czechia** and one of the regional teams in the **RobUL** robotics program.
-
-> **CircuitBreakers** = Litoměřice regional team  
-> **RobUL #9585** = the FIRST Robotics Competition team representing the wider regional program internationally
-
-We build and test robots locally, and selected members can join the regional RobUL roster for FRC competition. Our work spans **robot mechanics, embedded control, autonomous behavior, computer vision, software engineering and competition strategy**.
-
-## Team in action
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://prf.ujep.cz/cs/29923/chomutovsky-tym-chobot-vyhral-regionalni-robotickou-soutez-a-poleti-do-usa">
-        <img
-          src="https://api.microlink.io/?url=https%3A%2F%2Fprf.ujep.cz%2Fcs%2F29923%2Fchomutovsky-tym-chobot-vyhral-regionalni-robotickou-soutez-a-poleti-do-usa&embed=image.url"
-          alt="CircuitBreakers and the regional robotics competition in Ústí nad Labem"
-          width="100%">
-      </a>
-      <br>
-      <sub><b>Regional Robotics Competition 2025</b> — CircuitBreakers competed in Ústí nad Labem and finished 2nd. Photo/source: UJEP.</sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://icuk.cz/tym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni/">
-        <img
-          src="https://api.microlink.io/?url=https%3A%2F%2Ficuk.cz%2Ftym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni%2F&embed=image.url"
-          alt="RobUL team at the 2026 Denver Regional"
-          width="100%">
-      </a>
-      <br>
-      <sub><b>Denver Regional 2026</b> — the combined RobUL #9585 roster, including two CircuitBreakers members. Photo/source: ICUK.</sub>
-    </td>
-  </tr>
-</table>
-
-> More official team/event photography is available through [RobUL](https://robul.cz/), [UJEP](https://prf.ujep.cz/cs/29923/chomutovsky-tym-chobot-vyhral-regionalni-robotickou-soutez-a-poleti-do-usa) and [ICUK](https://icuk.cz/tym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni/). We also use CircuitBreakers' own social media as a source when the post/account is publicly addressable.
-
-## How we fit into RobUL
-
-**RobUL (Robot Ústí), FRC Team #9585**, is the Ústí Region's FIRST Robotics Competition team. FIRST lists RobUL as a community team from **Ústí nad Labem** with a **2024 rookie year**.
-
-From the 2025/2026 school year, the program has operated through four local regional teams:
-
-| Regional team | Base | Relationship to RobUL |
-|---|---|---|
-| **CHOBOT** | Chomutov | Regional team |
-| **PaperBox** | Štětí | Regional team |
-| **LEDbot** | Ústí nad Labem | Regional team |
-| **CircuitBreakers** | **Litoměřice** | **Regional team — us** |
-
-The model is simple: the regional teams develop students and robots locally; a selection of the most active members represents the region internationally under **RobUL #9585**.
-
-## CircuitBreakers in competition
-
-On **27 November 2025**, UJEP and ICUK held the first Ústí Region robotics competition inspired by FRC. Teams had to solve five challenges — **Laser, Rings, Maze, Moving Objects and Slalom** — in both manual and autonomous modes.
-
-**CircuitBreakers finished 2nd with 16 points**, behind CHOBOT and ahead of PaperBox and LEDbot.
-
-For the **2026 FRC season**, RobUL assembled a 13-student regional roster. **Two students from CircuitBreakers** were part of that team alongside students from CHOBOT, PaperBox and LEDbot.
-
-At the **2026 Denver Regional**, RobUL #9585:
-
-- ranked **34th of 55** after qualification,
-- was selected as the **second pick of Alliance 7**,
-- reached **Round 4 of the double-elimination playoffs**.
-
-That international run belongs to RobUL #9585 as a whole; CircuitBreakers' role was as one of the regional teams represented on the roster.
-
-## What we build
-
-Our public 2025 regional-competition codebase is a useful snapshot of the kind of engineering we do.
-
-### Robot software
-
-The public robot project is a **WPILib command-based Java** codebase with:
-
-- **swerve drive** configuration and control,
-- tele-operated and autonomous drive modes,
-- PID/PIDF tuning and motion control,
-- safety and low-voltage limiting,
-- autonomous maze behavior,
-- camera-assisted targeting and scanning,
-- dashboard/network telemetry,
-- simulation support.
-
-### Vision and coprocessors
-
-The repository also contains a **Python coprocessor** component for QR-based vision work, alongside robot-side subsystems that consume camera/vision data.
-
-### FRC ecosystem
-
-The public 2025 project includes dependencies for tools and libraries such as:
-
-**WPILib · YAGSL · PathPlanner · PhotonVision / PhotonLib · CTRE Phoenix · REVLib · AdvantageKit · MapleSim**
-
-Not every library in a vendordep directory is necessarily central to every robot feature, but together they show the FRC ecosystem the team has been working with.
-
-## Our public code
-
-### [RobUL-2025-Local](https://github.com/CircuitBreakersTKM/RobUL-2025-Local)
-
-Archived public code from the 2025 regional robot work.
-
-The repository includes the robot project, swerve configuration, autonomous routines, camera/vision logic and a coprocessor component. Its commit history also records the practical competition cycle: calibration, autonomous-maze work, QR distance estimation, safety changes, PIDF refinement, competition fixes and later demo preparation.
-
-> We publish what is appropriate to publish. Active competition work may remain private while it is being developed.
-
-## Timeline
-
-| When | Milestone |
-|---|---|
-| **2024** | RobUL #9585 enters FRC as a rookie team and competes at the Midwest Regional. |
-| **2025** | RobUL competes at the Colorado Regional. The regional-team model is established for the 2025/2026 school year. |
-| **27 Nov 2025** | CircuitBreakers places **2nd** in the first regional robotics competition in Ústí nad Labem. |
-| **Apr 2026** | Two CircuitBreakers students join the 13-student RobUL roster for the Denver Regional. |
-| **Apr 2026** | RobUL #9585 reaches the Denver Regional playoffs as part of Alliance 7. |
-| **Nov 2026** | RobUL plans the second regional robotics competition, again feeding the selection pathway toward the following FRC season. |
-
-## Mentoring and home base
-
-RobUL's current regional-team page lists **Jindřich Černý** as the CircuitBreakers mentor. The official recap of the 2025 regional competition named **Jan Štěrba and Jindřich Černý** as CircuitBreakers mentors for that event.
-
-Public sources describe CircuitBreakers as a team attached to the **technical-education / technical-club environment in Litoměřice**. The 2026 RobUL roster recap identifies the CircuitBreakers students on the selection team with **Gymnázium Josefa Jungmanna Litoměřice**.
-
-We intentionally do **not** publish a roster of student names here unless those members choose to make themselves public.
-
-## What this organization is for
-
-This GitHub organization exists to make the software side of the team easier to build, review and preserve:
-
-- robot code and configuration,
-- autonomous routines and control experiments,
-- coprocessor / vision utilities,
-- simulation and test tooling,
-- technical documentation,
-- future open-source projects from the team.
-
-If you are another FRC team, a student interested in robotics, or someone working on similar systems, feel free to explore the public repositories and learn from them.
-
-## Links
-
-- **RobUL:** https://robul.cz/
-- **Regional teams / CircuitBreakers:** https://robul.cz/?page_id=956
-- **RobUL #9585 on FIRST:** https://frc-events.firstinspires.org/team/9585
-- **2026 Denver Regional:** https://frc-events.firstinspires.org/2026/code
-- **CircuitBreakers 2025 result — UJEP:** https://prf.ujep.cz/en/30078/the-chobot-team-from-chomutov-won-a-regional-robotics-competition-and-will-fly-to-the-usa
-- **RobUL 2026 roster / Denver recap — ICUK:** https://icuk.cz/tym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni/
-- **Public 2025 robot code:** https://github.com/CircuitBreakersTKM/RobUL-2025-Local
-
-## Sources and verification
-
-This profile is deliberately based on public, independently checkable material rather than team lore.
-
-Primary sources used:
-
-1. **FIRST Event Web** — Team 9585 identity, rookie year, seasons and official event participation.
-2. **RobUL** — project history and current four-team regional structure.
-3. **UJEP Faculty of Science / RUR** — first regional competition format and final standings.
-4. **ICUK** — composition of the 2026 RobUL selection team and Denver 2026 recap.
-5. **CircuitBreakersTKM/RobUL-2025-Local** — public source code and repository history.
-
-Where public sources use slightly different institutional descriptions for CircuitBreakers, this profile preserves the common verified point: **CircuitBreakers is the Litoměřice regional team in the RobUL system.**
 
 ---
 
-<p align="center">
-  <strong>CircuitBreakers • Litoměřice • RobUL #9585</strong><br>
-  Build locally. Compete regionally. Represent internationally.
-</p>
+## 01 / Robotický tým z Litoměřic
+
+Jsme **CircuitBreakers**, středoškolský robotický tým z Litoměřic a součást regionální sítě **RobUL**. Navrhujeme, stavíme a programujeme soutěžní roboty. Věnujeme se mechanice, elektronice, řízení pohybu, autonomii, počítačovému vidění a soutěžní strategii.
+
+**Lokálně stavíme. Společně reprezentujeme.** Vybraní členové regionálních týmů mohou reprezentovat Ústecký kraj v mezinárodní soutěži FIRST Robotics Competition jako součást výběrového týmu **RobUL #9585**.
+
+> **CircuitBreakers** je regionální tým z Litoměřic. **RobUL #9585** je společný výběrový FRC tým. Výsledky a účast těchto týmů uvádíme odděleně.
+
+| Regionální soutěž 2025 | Výsledek | Denver Regional 2026 |
+| :--- | :--- | :--- |
+| **2. místo / CircuitBreakers** | **16 bodů** | **2 naši členové ve výběru RobUL** |
+
+## 02 / Mechanika, řízení a autonomie
+
+Veřejný projekt z roku 2025 zachycuje vývoj našeho soutěžního robota: od kalibrace a ladění pohybu přes autonomní průjezd bludištěm až po bezpečnostní úpravy a přípravu na ukázky.
+
+| Oblast | Na čem pracujeme |
+| :--- | :--- |
+| **Pohon a řízení** | Swerve pohon, ruční i autonomní režimy, regulace PID/PIDF. |
+| **Autonomie** | Průjezd bludištěm, navigace a reakce na data z kamery. |
+| **Počítačové vidění** | Zaměřování, skenování a detekce QR kódů s koprocesorem v Pythonu. |
+| **Spolehlivost** | Bezpečnostní logika, omezení při nízkém napětí, telemetrie a simulace. |
+
+**Java / Python / WPILib / YAGSL / PathPlanner / PhotonLib / CTRE Phoenix / REVLib / AdvantageKit / MapleSim**
+
+Projekt používá architekturu WPILib založenou na příkazech. Uvedené knihovny jsou součástí jeho závislostí; jejich přítomnost sama o sobě neznamená, že každou využívají všechny funkce robota.
+
+### [RobUL-2025-Local ↗](https://github.com/CircuitBreakersTKM/RobUL-2025-Local)
+
+Archivovaný veřejný kód pro regionální soutěž 2025. Obsahuje program robota, konfiguraci swerve pohonu, autonomní rutiny, zpracování obrazu i část pro koprocesor. Historie změn dokumentuje kalibraci, odhad vzdálenosti pomocí QR kódů, ladění PIDF i úpravy před soutěží.
+
+Rozpracovaný soutěžní kód může během vývoje zůstat neveřejný. Tato organizace slouží také pro technickou dokumentaci, experimenty s řízením a nástroje pro testování.
+
+## 03 / Tým na soutěžích
+
+### Regionální soutěž / 27. 11. 2025
+
+První robotická soutěž Ústeckého kraje pořádaná UJEP a ICUK nabídla pět disciplín inspirovaných FRC: **laser, kroužky, bludiště, pohyblivé předměty a slalom**. Robot je plnil v ručním i autonomním režimu. CircuitBreakers získal **2. místo se 16 body**, za týmem CHOBOT a před týmy PaperBox a LEDbot.
+
+[Výsledky a fotografie / UJEP ↗](https://prf.ujep.cz/cs/29923/chomutovsky-tym-chobot-vyhral-regionalni-robotickou-soutez-a-poleti-do-usa)
+
+### Denver Regional / 2026
+
+**Dva členové CircuitBreakers** byli součástí třináctičlenného výběru RobUL společně se studenty z týmů CHOBOT, PaperBox a LEDbot. RobUL #9585 obsadil **34. místo z 55 týmů v kvalifikaci**, byl vybrán jako druhý partner do **7. aliance** a postoupil do **4. kola vyřazovací části** se systémem dvojí eliminace.
+
+Tento mezinárodní výsledek patří společnému týmu RobUL #9585. CircuitBreakers byl jedním z regionálních týmů zastoupených v jeho sestavě.
+
+[Reportáž a fotografie / ICUK ↗](https://icuk.cz/tym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni/) · [Oficiální výsledky / FIRST ↗](https://frc-events.firstinspires.org/2026/code)
+
+## 04 / Čtyři města, jeden výběrový tým
+
+**RobUL (Robot Ústí)** je projekt robotiky v Ústeckém kraji. FIRST eviduje RobUL #9585 jako komunitní tým z Ústí nad Labem s první sezónou v roce **2024**. Od školního roku **2025/2026** funguje program prostřednictvím čtyř regionálních týmů:
+
+| Tým | Základna |
+| :--- | :--- |
+| CHOBOT | Chomutov |
+| PaperBox | Štětí |
+| LEDbot | Ústí nad Labem |
+| **CircuitBreakers** | **Litoměřice / náš tým** |
+
+Regionální týmy rozvíjejí studenty a stavějí roboty ve svých městech. Vybraní členové pak společně reprezentují kraj pod označením RobUL #9585.
+
+[Regionální týmy / RobUL ↗](https://robul.cz/?page_id=956) · [Profil týmu #9585 / FIRST ↗](https://frc-events.firstinspires.org/team/9585)
+
+<details>
+<summary><strong>Historie, zázemí a zdroje</strong></summary>
+
+### Milníky
+
+| Kdy | Událost |
+| :--- | :--- |
+| **2024** | RobUL #9585 vstupuje do FRC a soutěží na Midwest Regional. |
+| **2025** | RobUL se účastní Colorado Regional. Pro školní rok 2025/2026 vzniká síť regionálních týmů. |
+| **27. 11. 2025** | CircuitBreakers získává 2. místo na první regionální robotické soutěži v Ústí nad Labem. |
+| **Duben 2026** | Dva členové CircuitBreakers reprezentují v třináctičlenném výběru RobUL na Denver Regional. RobUL postupuje do vyřazovací části v 7. alianci. |
+| **Listopad 2026 / plán** | RobUL plánuje druhou regionální soutěž jako součást výběru pro další sezónu FRC. |
+
+### Vedení a zázemí
+
+Stránka regionálních týmů RobUL uvádí jako mentora CircuitBreakers **Jindřicha Černého**. Reportáž z regionální soutěže 2025 jmenuje mentory **Jana Štěrbu a Jindřicha Černého**.
+
+Veřejné zdroje spojují tým s prostředím technického vzdělávání a technického klubu v Litoměřicích. Reportáž o výběru RobUL pro rok 2026 uvádí u studentů z CircuitBreakers **Gymnázium Josefa Jungmanna Litoměřice**. Seznam studentů zde bez jejich výslovného souhlasu nezveřejňujeme.
+
+### Zdroje
+
+Profil vychází z veřejně ověřitelných podkladů:
+
+- [FIRST Event Web](https://frc-events.firstinspires.org/team/9585) — identita týmu, první sezóna a účast na soutěžích.
+- [RobUL](https://robul.cz/) — historie projektu a struktura regionálních týmů.
+- [Přírodovědecká fakulta UJEP](https://prf.ujep.cz/cs/29923/chomutovsky-tym-chobot-vyhral-regionalni-robotickou-soutez-a-poleti-do-usa) — formát a výsledky regionální soutěže 2025.
+- [ICUK](https://icuk.cz/tym-robul-na-roboticke-soutezi-denver-regional-2026-pribeh-ktery-stoji-za-vypraveni/) — složení výběru a reportáž z Denver Regional 2026.
+- [RobUL-2025-Local](https://github.com/CircuitBreakersTKM/RobUL-2025-Local) — veřejný zdrojový kód a historie vývoje.
+
+</details>
+
+---
+
+## 05 / Poznejte CircuitBreakers
+
+Na našem webu najdete tým, robota i příběhy ze soutěží. Zajímá vás programování, mechanika, elektronika, CAD nebo spolupráce s týmem? Napište nám na Instagram.
+
+**[circuitbreakers.cloud ↗](https://circuitbreakers.cloud/)** &nbsp; / &nbsp; [@circuitbreakerstkm ↗](https://www.instagram.com/circuitbreakerstkm/)
+
+<p align="center"><sub>CIRCUITBREAKERS / LITOMĚŘICE / REGIONÁLNÍ TÝM ROBUL</sub></p>

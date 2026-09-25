@@ -1,21 +1,33 @@
-# CircuitBreakersTKM organization profile
+# CircuitBreakers / profil organizace
 
-This is the special GitHub .github repository for the **CircuitBreakersTKM** organization.
+Speciální repozitář **.github** pro veřejný profil organizace **CircuitBreakersTKM**.
 
-The public organization profile is maintained in:
+- [Veřejný profil](./profile/README.md)
+- [Grafika banneru](./profile/assets/circuitbreakers-banner.svg)
+- [Web týmu](https://circuitbreakers.cloud/)
 
-- [profile/README.md](./profile/README.md)
+## Vizuální styl
 
-Supporting graphics live in:
+Profil navazuje na týmový web: černá `#0a0a0a`, bílá, tlumená červená `#b83430` a světlejší červená `#e05a54` pro akcenty na tmavém pozadí. Banner používá technickou mřížku, výrazný název s obrysovým druhým řádkem a schematický motiv robota. Hlavní nápis je převedený na vektorové křivky, takže nezávisí na fontech dostupných při zobrazení na GitHubu.
 
-- [profile/assets/](./profile/assets/)
+Celý banner i textové odkazy vedou na **https://circuitbreakers.cloud/**. Profil používá Markdown a HTML podporované GitHubem; SVG nepotřebuje skripty ani externí obrázky či fonty.
 
-## Editing policy
+## Obnovení cache banneru
 
-Keep public claims source-backed. In particular:
+Po úpravě SVG a před commitem spusťte z kořene repozitáře:
 
-- distinguish **CircuitBreakers** (Litoměřice regional team) from **RobUL #9585** (the FRC team),
-- do not publish private competition code by copying it into the profile,
-- do not publish student personal data without explicit consent,
-- prefer FIRST, RobUL, UJEP and ICUK for competition/history claims,
-- update time-sensitive results and future-event wording as seasons change.
+```powershell
+pwsh -File scripts/refresh-banner.ps1
+```
+
+Skript aktualizuje adresu obrázku v profilu a parametr `v` odvodí z SHA-256 obsahu SVG. Změna grafiky tak vytvoří novou adresu pro cache obrázků GitHubu. Opakované spuštění beze změny grafiky ponechá stejnou verzi. Absolutní adresa funguje také při zobrazení profilu na stránce organizace. Aktualizace samotné stránky profilu může ještě záviset na cache GitHubu.
+
+## Zásady úprav
+
+- Veřejná tvrzení opírejte o dohledatelné zdroje.
+- Rozlišujte **CircuitBreakers** (regionální tým z Litoměřic) a **RobUL #9585** (výběrový FRC tým).
+- Do profilu nekopírujte neveřejný soutěžní kód.
+- Osobní údaje studentů nezveřejňujte bez výslovného souhlasu.
+- U soutěžních výsledků a historie upřednostňujte FIRST, RobUL, UJEP a ICUK.
+- Průběžně aktualizujte výsledky a formulace týkající se plánovaných akcí.
+- Veřejné texty pište česky; zachovejte názvy týmů, soutěží a technologií.
